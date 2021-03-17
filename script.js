@@ -12,8 +12,8 @@ var player2 = document.getElementsByClassName("player")[1];
 var player1img = document.getElementsByClassName('img1')[0];
 var player2img = document.getElementsByClassName('img2')[0];
 
-var firstRandomNumber = Math.trunc(Math.random() * 5);
-var secondRandomNumber = Math.trunc(Math.random() * 5);
+var firstRandomNumber = Math.trunc(Math.random() * 6);
+var secondRandomNumber = Math.trunc(Math.random() * 6);
 
 function reloadme() {
   location.reload();
